@@ -1,0 +1,5 @@
+:HL["/nextjs-multilingual-demo/_next/static/chunks/1snp2i64n47mz.css","style"]
+:HL["/nextjs-multilingual-demo/_next/static/chunks/2qee6-o19mq8m.css","style"]
+:HL["/nextjs-multilingual-demo/_next/static/media/68d403cf9f2c68c5-s.p.012bmydply3go.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/nextjs-multilingual-demo/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"ru","siblings":[]},"prefetchHints":4128,"slots":{"children":{"name":"insights","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"localizing-for-baidu-yandex","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"Ur7y3k1fYBqj4T00P3v5B"}

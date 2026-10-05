@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/" />
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/about/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/about/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/about/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/about/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/about/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/about/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/about/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/about/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/about/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/about/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/about/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/about/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/about/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/about/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/services/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/services/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/services/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/services/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/services/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/services/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/services/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/services/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/services/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/services/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/services/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/services/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/services/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/services/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/services/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/services/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/services/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/markets/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/markets/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/markets/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/markets/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/markets/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/markets/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/markets/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/markets/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/markets/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/markets/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/markets/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/markets/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/markets/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/markets/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/markets/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/markets/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/markets/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/insights/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/insights/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/insights/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/" />
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/contact/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/contact/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/contact/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/contact/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/contact/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/contact/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/contact/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/contact/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/contact/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/contact/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/contact/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/contact/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/contact/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/contact/" />
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<lastmod>2026-09-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/insights/china-entity-setup-questions/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<lastmod>2026-09-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/china-entity-setup-questions/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<lastmod>2026-09-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/insights/china-entity-setup-questions/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/china-entity-setup-questions/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/china-entity-setup-questions/" />
+<lastmod>2026-09-22</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<lastmod>2026-08-27</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/insights/eac-certification-roadmap/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<lastmod>2026-08-27</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/eac-certification-roadmap/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<lastmod>2026-08-27</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/insights/eac-certification-roadmap/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/eac-certification-roadmap/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/eac-certification-roadmap/" />
+<lastmod>2026-08-27</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<lastmod>2026-07-15</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/insights/gulf-regional-headquarters/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<lastmod>2026-07-15</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/gulf-regional-headquarters/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<lastmod>2026-07-15</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/insights/gulf-regional-headquarters/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/gulf-regional-headquarters/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/gulf-regional-headquarters/" />
+<lastmod>2026-07-15</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<lastmod>2026-06-03</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ru/insights/localizing-for-baidu-yandex/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<lastmod>2026-06-03</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/localizing-for-baidu-yandex/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<lastmod>2026-06-03</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://yahome.github.io/nextjs-multilingual-demo/ar/insights/localizing-for-baidu-yandex/</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ru" href="https://yahome.github.io/nextjs-multilingual-demo/ru/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="zh-CN" href="https://yahome.github.io/nextjs-multilingual-demo/zh-cn/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="ar" href="https://yahome.github.io/nextjs-multilingual-demo/ar/insights/localizing-for-baidu-yandex/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://yahome.github.io/nextjs-multilingual-demo/en/insights/localizing-for-baidu-yandex/" />
+<lastmod>2026-06-03</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+</urlset>

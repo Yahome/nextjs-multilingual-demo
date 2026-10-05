@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://yahome.github.io/nextjs-multilingual-demo
+Sitemap: https://yahome.github.io/nextjs-multilingual-demo/sitemap.xml
