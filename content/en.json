@@ -1,0 +1,105 @@
+{
+  "brand": {
+    "name": "Meridian Partners",
+    "tagline": "Cross-border advisory for China, Russia, and the GCC"
+  },
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "aboutRtl": "About RTL",
+    "language": "Language"
+  },
+  "meta": {
+    "home": {
+      "title": "Meridian Partners — Cross-border Business Advisory",
+      "description": "Strategic consulting and trade services connecting Mainland China, Russia, and GCC markets."
+    },
+    "contact": {
+      "title": "Contact — Meridian Partners",
+      "description": "Get in touch with Meridian Partners about market entry, trade facilitation, or partnership advisory."
+    },
+    "aboutRtl": {
+      "title": "About RTL — Meridian Partners",
+      "description": "How this demo handles Arabic right-to-left layout with CSS logical properties and a single component tree."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "International trade & market entry",
+      "title": "Clear guidance across borders",
+      "subtitle": "We help companies navigate regulatory, commercial, and cultural complexity when expanding between Mainland China, Russia, and the Gulf Cooperation Council.",
+      "primaryCta": "Talk to an advisor",
+      "secondaryCta": "See how RTL works"
+    },
+    "features": {
+      "title": "What we deliver",
+      "subtitle": "Practical advisory built for multi-market operators.",
+      "items": [
+        {
+          "title": "Market entry strategy",
+          "description": "Partner sourcing, regulatory scoping, and go-to-market plans tailored to each region."
+        },
+        {
+          "title": "Trade facilitation",
+          "description": "Documentation, logistics coordination, and compliance support for cross-border shipments."
+        },
+        {
+          "title": "Local partnership advisory",
+          "description": "Due diligence, negotiation support, and cultural briefings for lasting commercial relationships."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to expand with confidence?",
+      "body": "Share your target markets and timeline. We will respond with a concise next-step plan.",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Tell us about your expansion goals. This demo form runs entirely in the browser — no data is sent to a server.",
+    "fields": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "message": "How can we help?",
+      "messagePlaceholder": "Markets, timeline, and what you need…",
+      "submit": "Send message",
+      "sending": "Sending…"
+    },
+    "success": {
+      "title": "Thank you",
+      "body": "Your message was recorded locally for this demo. In production, this would reach our advisory team."
+    },
+    "errors": {
+      "required": "Please fill in all fields.",
+      "email": "Please enter a valid email address."
+    }
+  },
+  "aboutRtl": {
+    "title": "Arabic RTL without duplicate layouts",
+    "intro": "This page explains the mirroring approach used across the demo. One component tree serves all locales; direction is driven by the html dir attribute.",
+    "sections": [
+      {
+        "title": "dir=\"rtl\" on <html>",
+        "body": "When the locale is Arabic, the root layout sets lang=\"ar\" and dir=\"rtl\". The browser flips the inline axis so start becomes the right edge."
+      },
+      {
+        "title": "CSS logical properties",
+        "body": "Spacing and alignment use logical utilities such as ms-/me-, ps-/pe-, text-start, and start-/end- instead of left/right. Margins and padding therefore mirror automatically."
+      },
+      {
+        "title": "Shared components",
+        "body": "Header, cards, and forms are not forked for Arabic. The language switcher preserves the current path so visitors stay on the same page while changing locale."
+      }
+    ],
+    "note": "This keeps maintenance low and makes a future headless CMS swap straightforward — content changes, layout logic stays the same."
+  },
+  "footer": {
+    "rights": "Demo site for multilingual Next.js architecture. Not a live client project.",
+    "builtWith": "Built with Next.js App Router, TypeScript, and Tailwind CSS."
+  }
+}

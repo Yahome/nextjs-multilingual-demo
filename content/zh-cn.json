@@ -1,0 +1,105 @@
+{
+  "brand": {
+    "name": "Meridian Partners",
+    "tagline": "面向中国大陆、俄罗斯与海湾地区的跨境咨询"
+  },
+  "nav": {
+    "home": "首页",
+    "contact": "联系我们",
+    "aboutRtl": "关于 RTL",
+    "language": "语言"
+  },
+  "meta": {
+    "home": {
+      "title": "Meridian Partners — 跨境商业咨询",
+      "description": "为企业提供连接中国大陆、俄罗斯与海合会（GCC）市场的战略咨询与贸易服务。"
+    },
+    "contact": {
+      "title": "联系我们 — Meridian Partners",
+      "description": "就市场进入、贸易便利或合作伙伴咨询与 Meridian Partners 取得联系。"
+    },
+    "aboutRtl": {
+      "title": "关于 RTL — Meridian Partners",
+      "description": "本演示如何通过 CSS 逻辑属性与单一组件树实现阿拉伯语从右到左（RTL）布局。"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "国际贸易与市场进入",
+      "title": "清晰的跨境指引",
+      "subtitle": "我们协助企业在中国大陆、俄罗斯与海湾合作委员会市场之间拓展业务时，妥善应对监管、商业与文化复杂性。",
+      "primaryCta": "预约顾问沟通",
+      "secondaryCta": "了解 RTL 如何实现"
+    },
+    "features": {
+      "title": "我们提供的服务",
+      "subtitle": "面向多市场运营者的务实咨询。",
+      "items": [
+        {
+          "title": "市场进入策略",
+          "description": "针对各地区的合作伙伴寻源、监管范围梳理与进入市场方案。"
+        },
+        {
+          "title": "贸易便利化",
+          "description": "跨境货运的单证、物流协调与合规支持。"
+        },
+        {
+          "title": "本地合作咨询",
+          "description": "尽职调查、谈判支持与文化简报，助力建立持久商业关系。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好稳健拓展了吗？",
+      "body": "告诉我们目标市场与时间规划，我们将回复简明的下一步建议。",
+      "button": "联系我们"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "请介绍您的拓展目标。此演示表单仅在浏览器本地运行，不会向服务器发送任何数据。",
+    "fields": {
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "工作邮箱",
+      "emailPlaceholder": "you@company.com",
+      "company": "公司",
+      "companyPlaceholder": "公司名称",
+      "message": "我们能如何帮助您？",
+      "messagePlaceholder": "目标市场、时间规划以及您的需求…",
+      "submit": "发送留言",
+      "sending": "发送中…"
+    },
+    "success": {
+      "title": "感谢您",
+      "body": "您的留言已在本演示中本地记录。在正式环境中，消息将送达我们的顾问团队。"
+    },
+    "errors": {
+      "required": "请填写所有字段。",
+      "email": "请输入有效的电子邮箱地址。"
+    }
+  },
+  "aboutRtl": {
+    "title": "无需重复布局的阿拉伯语 RTL",
+    "intro": "本页说明演示站点的镜像布局方法。所有语言共用同一套组件树，阅读方向由 html 的 dir 属性驱动。",
+    "sections": [
+      {
+        "title": "在 <html> 上设置 dir=\"rtl\"",
+        "body": "当语言为阿拉伯语时，根布局设置 lang=\"ar\" 与 dir=\"rtl\"。浏览器会翻转行内轴，使 start 落在右缘。"
+      },
+      {
+        "title": "CSS 逻辑属性",
+        "body": "间距与对齐使用 ms-/me-、ps-/pe-、text-start、start-/end- 等逻辑工具类，而非 left/right，因此边距与内边距会自动镜像。"
+      },
+      {
+        "title": "共享组件",
+        "body": "页头、卡片与表单无需为阿拉伯语单独复制。语言切换器会保留当前路径，用户切换语言时仍停留在同一页面。"
+      }
+    ],
+    "note": "这样可降低维护成本，也便于日后替换为无头 CMS——内容可变，布局逻辑保持不变。"
+  },
+  "footer": {
+    "rights": "多语言 Next.js 架构演示站点，非真实客户项目。",
+    "builtWith": "基于 Next.js App Router、TypeScript 与 Tailwind CSS 构建。"
+  }
+}
