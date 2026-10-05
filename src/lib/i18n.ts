@@ -4,17 +4,23 @@ export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "en";
 
 export type LocaleMeta = {
+  /** BCP 47 tag used for `<html lang>` and `hreflang`. */
   lang: string;
   dir: "ltr" | "rtl";
+  /** Compact label for the language switcher button. */
   label: string;
-  hreflang: string;
+  /** Language name written in that language. */
+  nativeName: string;
+  /** Locale used for Intl date and number formatting. */
+  intl: string;
+  ogLocale: string;
 };
 
 export const localeMeta: Record<Locale, LocaleMeta> = {
-  en: { lang: "en", dir: "ltr", label: "EN", hreflang: "en" },
-  ru: { lang: "ru", dir: "ltr", label: "RU", hreflang: "ru" },
-  "zh-cn": { lang: "zh-CN", dir: "ltr", label: "中文", hreflang: "zh-CN" },
-  ar: { lang: "ar", dir: "rtl", label: "العربية", hreflang: "ar" },
+  en: { lang: "en", dir: "ltr", label: "EN", nativeName: "English", intl: "en-GB", ogLocale: "en_GB" },
+  ru: { lang: "ru", dir: "ltr", label: "RU", nativeName: "Русский", intl: "ru-RU", ogLocale: "ru_RU" },
+  "zh-cn": { lang: "zh-CN", dir: "ltr", label: "中文", nativeName: "简体中文", intl: "zh-CN", ogLocale: "zh_CN" },
+  ar: { lang: "ar", dir: "rtl", label: "عربي", nativeName: "العربية", intl: "ar-AE", ogLocale: "ar_AE" },
 };
 
 export function isLocale(value: string): value is Locale {

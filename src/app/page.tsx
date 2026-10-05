@@ -1,36 +1,35 @@
-import Link from "next/link";
+import { defaultLocale, localeMeta, locales } from "@/lib/i18n";
 
 /**
  * Static root redirect for `output: 'export'` (middleware is incompatible
- * with static export). Meta refresh + visible link — no IP-based detection.
+ * with static export). Meta refresh to the default locale, with visible links
+ * to every language in case the redirect is blocked. No IP-based detection.
  */
 export default function RootPage() {
+  const target = `/${defaultLocale}/`;
+
   return (
     <html lang="en">
       <head>
-        <meta httpEquiv="refresh" content="0; url=/en/" />
-        <link rel="canonical" href="/en/" />
+        <meta httpEquiv="refresh" content={`0; url=${target}`} />
+        <link rel="canonical" href={target} />
         <title>Meridian Partners</title>
       </head>
-      <body
-        style={{
-          margin: 0,
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontFamily: "system-ui, sans-serif",
-          background: "#f8fafc",
-          color: "#0f172a",
-        }}
-      >
-        <p>
-          Redirecting to{" "}
-          <Link href="/en/" style={{ color: "#0f766e", fontWeight: 600 }}>
-            English
-          </Link>
-          …
-        </p>
+      <body className="flex min-h-dvh items-center justify-center bg-paper p-6 font-sans text-body">
+        <ul className="flex flex-wrap justify-center gap-3">
+          {locales.map((locale) => (
+            <li key={locale}>
+              <a
+                href={`/${locale}/`}
+                hrefLang={localeMeta[locale].lang}
+                lang={localeMeta[locale].lang}
+                className="inline-flex rounded-md border border-ink-900/15 bg-white px-4 py-2 font-medium text-ink-900 hover:border-ink-900"
+              >
+                {localeMeta[locale].nativeName}
+              </a>
+            </li>
+          ))}
+        </ul>
       </body>
     </html>
   );

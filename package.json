@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "build": "npm run check:content && next build",
+    "start": "npx serve out",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "check:content": "node scripts/check-content.mjs"
   },
   "dependencies": {
     "next": "16.3.8",

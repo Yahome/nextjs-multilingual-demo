@@ -1,105 +1,645 @@
 {
-  "brand": {
-    "name": "Meridian Partners",
-    "tagline": "Cross-border advisory for China, Russia, and the GCC"
-  },
-  "nav": {
-    "home": "Home",
-    "contact": "Contact",
-    "aboutRtl": "About RTL",
-    "language": "Language"
-  },
-  "meta": {
-    "home": {
-      "title": "Meridian Partners — Cross-border Business Advisory",
-      "description": "Strategic consulting and trade services connecting Mainland China, Russia, and GCC markets."
+  "site": {
+    "brand": {
+      "name": "Meridian Partners",
+      "tagline": "Cross-border advisory for China, Russia and the GCC",
+      "description": "Independent advisory firm helping companies enter, operate and grow across Mainland China, Russia and the Gulf."
     },
-    "contact": {
-      "title": "Contact — Meridian Partners",
-      "description": "Get in touch with Meridian Partners about market entry, trade facilitation, or partnership advisory."
+    "email": "hello@example.com",
+    "offices": [
+      {
+        "id": "shanghai",
+        "city": "Shanghai",
+        "address": "Jing'an District, Shanghai, China",
+        "countryCode": "CN",
+        "timezone": "UTC+8",
+        "hours": "Mon–Fri, 09:00–18:00"
+      },
+      {
+        "id": "moscow",
+        "city": "Moscow",
+        "address": "Presnensky District, Moscow, Russia",
+        "countryCode": "RU",
+        "timezone": "UTC+3",
+        "hours": "Mon–Fri, 09:00–18:00"
+      },
+      {
+        "id": "dubai",
+        "city": "Dubai",
+        "address": "Dubai International Financial Centre, UAE",
+        "countryCode": "AE",
+        "timezone": "UTC+4",
+        "hours": "Mon–Fri, 09:00–18:00"
+      }
+    ],
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "markets": "Markets",
+      "insights": "Insights",
+      "contact": "Contact"
     },
-    "aboutRtl": {
-      "title": "About RTL — Meridian Partners",
-      "description": "How this demo handles Arabic right-to-left layout with CSS logical properties and a single component tree."
+    "ui": {
+      "skipToContent": "Skip to main content",
+      "mainNav": "Main",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "language": "Language",
+      "contactCta": "Book a consultation",
+      "breadcrumb": "Breadcrumb",
+      "learnMore": "Learn more",
+      "readArticle": "Read article",
+      "readingTime": "Reading time"
+    },
+    "cta": {
+      "title": "Planning your next market?",
+      "body": "Tell us where you want to grow and by when. A partner will reply within one business day with a clear view of the first steps.",
+      "button": "Start a conversation"
+    },
+    "footer": {
+      "navTitle": "Company",
+      "officesTitle": "Offices",
+      "languagesTitle": "Languages",
+      "rights": "All rights reserved.",
+      "disclaimer": "Demonstration website: the company, people and figures shown are fictional."
     }
   },
-  "home": {
-    "hero": {
-      "eyebrow": "International trade & market entry",
-      "title": "Clear guidance across borders",
-      "subtitle": "We help companies navigate regulatory, commercial, and cultural complexity when expanding between Mainland China, Russia, and the Gulf Cooperation Council.",
-      "primaryCta": "Talk to an advisor",
-      "secondaryCta": "See how RTL works"
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Meridian Partners — Cross-border advisory for China, Russia and the GCC",
+        "description": "Independent advisory for companies expanding between Mainland China, Russia and the Gulf: market entry, regulation, partners and on-the-ground execution."
+      },
+      "hero": {
+        "eyebrow": "Cross-border advisory since 2008",
+        "title": "Clear direction across China, Russia and the Gulf",
+        "lead": "We help manufacturers, investors and service firms enter new markets, navigate regulation and build trusted local partnerships, from strategy through to execution.",
+        "primaryCta": "Book a consultation",
+        "secondaryCta": "Explore our services",
+        "mapLabel": "Map showing our offices in Shanghai, Moscow and Dubai"
+      },
+      "stats": [
+        { "value": "18", "label": "years advising on cross-border growth" },
+        { "value": "3", "label": "regional offices: Shanghai, Moscow, Dubai" },
+        { "value": "45+", "label": "consultants working in nine languages" },
+        { "value": "320+", "label": "market-entry and expansion mandates" }
+      ],
+      "services": {
+        "eyebrow": "What we do",
+        "title": "Advisory that carries through to execution",
+        "lead": "Six practices, one team. We combine strategy with the practical work of licences, partners, entities and logistics.",
+        "link": "All services"
+      },
+      "approach": {
+        "eyebrow": "How we work",
+        "title": "A proven path from first question to steady operations",
+        "lead": "Every engagement follows four stages, adapted to your market, sector and appetite for risk.",
+        "steps": [
+          {
+            "title": "Assess",
+            "body": "We map demand, competitors, regulation and risk, combining desk research with interviews on the ground."
+          },
+          {
+            "title": "Design",
+            "body": "We define the entry model, partner profile, budget and a realistic timeline your board can approve."
+          },
+          {
+            "title": "Execute",
+            "body": "We handle registration, certification, partner selection and launch, working alongside your team."
+          },
+          {
+            "title": "Scale",
+            "body": "We review performance, strengthen governance and plan the next market once the first one is profitable."
+          }
+        ]
+      },
+      "markets": {
+        "eyebrow": "Where we work",
+        "title": "Three regions, one coordinated team",
+        "lead": "Our offices share clients, data and playbooks, so a project spanning several markets is managed as one programme.",
+        "link": "Explore markets"
+      },
+      "insights": {
+        "eyebrow": "Insights",
+        "title": "Latest thinking from our partners",
+        "lead": "Practical analysis of regulation, market entry and operations in our three regions.",
+        "link": "All insights"
+      }
     },
-    "features": {
-      "title": "What we deliver",
-      "subtitle": "Practical advisory built for multi-market operators.",
-      "items": [
+    "about": {
+      "meta": {
+        "title": "About us",
+        "description": "Meet Meridian Partners: an independent advisory firm with offices in Shanghai, Moscow and Dubai and 18 years of cross-border experience."
+      },
+      "hero": {
+        "eyebrow": "About us",
+        "title": "Independent advisors for companies crossing borders",
+        "lead": "Founded in Shanghai in 2008, Meridian Partners now supports clients from three regional offices with a team of consultants, analysts and former industry executives."
+      },
+      "story": {
+        "eyebrow": "Our story",
+        "title": "Built where the work happens",
+        "paragraphs": [
+          "Meridian began with a simple observation: companies expanding between Asia, Eurasia and the Gulf were receiving advice written far from the markets themselves. Strategies looked sound on paper but stalled at the first licence application or partner meeting.",
+          "So we built the firm the other way round. Our consultants live and work in the markets they advise on, speak the languages of their counterparts and have run operations themselves. That local depth is combined with one shared methodology, so clients get consistent quality wherever they expand.",
+          "Today we advise industrial groups, investors and fast-growing technology firms, and we remain independent: we accept no commissions from the partners, distributors or service providers we recommend."
+        ]
+      },
+      "values": {
+        "eyebrow": "Our principles",
+        "title": "What clients can expect from us",
+        "lead": "Four commitments guide every engagement, from a two-week diagnostic to a multi-year programme.",
+        "items": [
+          {
+            "title": "Independence",
+            "body": "Our only fee comes from our client. Partner and vendor recommendations are based on evidence, never on commissions."
+          },
+          {
+            "title": "Local depth",
+            "body": "Native-speaking teams in each region bring direct access to regulators, industry bodies and decision-makers."
+          },
+          {
+            "title": "Compliance first",
+            "body": "Sanctions, export-control and anti-corruption checks are built into every stage, not added at the end."
+          },
+          {
+            "title": "Clarity",
+            "body": "We write for decision-makers: concise recommendations, clear trade-offs and no unnecessary jargon."
+          }
+        ]
+      },
+      "milestones": {
+        "eyebrow": "Milestones",
+        "title": "Eighteen years of steady growth",
+        "items": [
+          {
+            "year": "2008",
+            "title": "Founded in Shanghai",
+            "body": "Advising European and Gulf manufacturers on entering the Chinese market."
+          },
+          {
+            "year": "2013",
+            "title": "Moscow office opens",
+            "body": "Supporting EAC certification, distribution and industrial partnerships across the Eurasian Economic Union."
+          },
+          {
+            "year": "2017",
+            "title": "Dubai office opens",
+            "body": "Covering all six GCC states from the Dubai International Financial Centre."
+          },
+          {
+            "year": "2024",
+            "title": "Digital practice launched",
+            "body": "Helping clients build websites, search visibility and content for Chinese, Russian and Arabic-speaking audiences."
+          }
+        ]
+      },
+      "leadership": {
+        "eyebrow": "Leadership",
+        "title": "Partners who know each market first-hand",
+        "lead": "Each regional office is led by a partner with more than fifteen years of experience in the region.",
+        "languagesLabel": "Languages",
+        "people": [
+          {
+            "name": "Chen Ruoxi",
+            "role": "Managing Partner",
+            "office": "Shanghai",
+            "bio": "Previously led China market entry for a European industrial group. Advises on market entry, investment structures and partner selection.",
+            "languages": "Mandarin, English, German"
+          },
+          {
+            "name": "Elena Sokolova",
+            "role": "Partner",
+            "office": "Moscow",
+            "bio": "Former trade-compliance director with deep experience in EAC certification, customs and Eurasian distribution networks.",
+            "languages": "Russian, English, Mandarin"
+          },
+          {
+            "name": "Omar Al-Hashimi",
+            "role": "Partner",
+            "office": "Dubai",
+            "bio": "Spent a decade in Gulf infrastructure and industrial investment. Advises on regional headquarters, licensing and government relations.",
+            "languages": "Arabic, English, French"
+          }
+        ]
+      }
+    },
+    "services": {
+      "meta": {
+        "title": "Services",
+        "description": "Market entry strategy, regulatory compliance, partner due diligence, entity setup, trade logistics and localization for China, Russia and the GCC."
+      },
+      "hero": {
+        "eyebrow": "Services",
+        "title": "Six practices that take you from strategy to operations",
+        "lead": "Engage us for a single workstream or as an integrated team covering every step of your expansion."
+      },
+      "jumpLabel": "Jump to a service",
+      "deliverablesLabel": "Typical deliverables",
+      "engagement": {
+        "eyebrow": "Ways to work with us",
+        "title": "Engagement models that fit your stage",
+        "lead": "We scope every engagement around a clear outcome, with fixed fees wherever possible.",
+        "models": [
+          {
+            "title": "Project",
+            "body": "A defined scope over six to twelve weeks, such as a market assessment, a partner search or an entity setup."
+          },
+          {
+            "title": "Retained advisory",
+            "body": "A dedicated partner on a monthly retainer for ongoing questions, board updates and market monitoring."
+          },
+          {
+            "title": "Team on the ground",
+            "body": "Experienced interim managers who run your launch locally until your own team is in place."
+          }
+        ]
+      }
+    },
+    "markets": {
+      "meta": {
+        "title": "Markets & industries",
+        "description": "How Meridian Partners supports companies in Mainland China, Russia and the EAEU, and the six GCC states — and the industries we know best."
+      },
+      "hero": {
+        "eyebrow": "Markets",
+        "title": "Three regions, each with its own rules of the game",
+        "lead": "Our teams in Shanghai, Moscow and Dubai combine local market intelligence with a shared approach to strategy, compliance and execution."
+      },
+      "jumpLabel": "Jump to a market",
+      "officeLabel": "Regional office",
+      "opportunitiesLabel": "Where we see opportunity",
+      "considerationsLabel": "What to plan for",
+      "industries": {
+        "eyebrow": "Industries",
+        "title": "Sector expertise that travels across borders",
+        "lead": "Our consultants combine regional knowledge with hands-on experience in six industries."
+      }
+    },
+    "insights": {
+      "meta": {
+        "title": "Insights",
+        "description": "Analysis and practical guides on market entry, regulation and digital localization in China, Russia and the GCC."
+      },
+      "hero": {
+        "eyebrow": "Insights",
+        "title": "Analysis for leaders expanding across borders",
+        "lead": "Short, practical briefings from our partners on regulation, market entry and operations."
+      },
+      "featuredLabel": "Latest",
+      "moreTitle": "More insights",
+      "backLabel": "All insights"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact",
+        "description": "Contact Meridian Partners in Shanghai, Moscow or Dubai to discuss market entry, regulation or partnerships."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Let's discuss your next market",
+        "lead": "Share a few details about your plans. A partner from the relevant office will reply within one business day."
+      },
+      "form": {
+        "title": "Send us a message",
+        "requiredNote": "All fields are required.",
+        "demoNote": "Demo form: your details stay in your browser and are not sent anywhere.",
+        "fields": {
+          "name": "Full name",
+          "email": "Work email",
+          "emailPlaceholder": "name@company.com",
+          "company": "Company",
+          "market": "Market of interest",
+          "marketPlaceholder": "Select a market",
+          "marketOther": "Several markets / not sure yet",
+          "message": "How can we help?",
+          "messagePlaceholder": "Your goals, timeline and any questions",
+          "consent": "I agree that Meridian Partners may use these details to respond to my enquiry."
+        },
+        "submit": "Send message",
+        "sending": "Sending…",
+        "errors": {
+          "required": "Please complete this field.",
+          "email": "Please enter a valid email address, e.g. name@company.com.",
+          "consent": "Please confirm that we may contact you."
+        },
+        "success": {
+          "title": "Thank you — message received",
+          "body": "On a live site, a partner from the relevant office would reply within one business day. This demo does not store or send your details.",
+          "reset": "Send another message"
+        }
+      },
+      "details": {
+        "title": "Contact details",
+        "emailLabel": "Email",
+        "responseTime": "We reply to every enquiry within one business day.",
+        "officesTitle": "Our offices"
+      }
+    }
+  },
+  "services": [
+    {
+      "id": "market-entry",
+      "title": "Market entry strategy",
+      "summary": "Sizing, entry model and a phased roadmap built on evidence from the ground, not desk research alone.",
+      "deliverables": [
+        "Market and competitor assessment",
+        "Entry-model options: distributor, joint venture or own entity",
+        "12–24-month roadmap with budget"
+      ]
+    },
+    {
+      "id": "regulatory",
+      "title": "Regulation & compliance",
+      "summary": "Licensing, product certification and trade-compliance support across three regulatory systems.",
+      "deliverables": [
+        "Certification plan (CCC, EAC, SASO/SABER)",
+        "Sanctions and export-control screening",
+        "Ongoing regulatory monitoring"
+      ]
+    },
+    {
+      "id": "partners",
+      "title": "Partner search & due diligence",
+      "summary": "Shortlists of vetted distributors, agents and joint-venture partners — with the background checks to match.",
+      "deliverables": [
+        "Partner long list and scoring",
+        "Integrity and financial due diligence",
+        "Meeting programmes and negotiation support"
+      ]
+    },
+    {
+      "id": "entity-setup",
+      "title": "Entity setup & governance",
+      "summary": "Company formation and governance, from a wholly foreign-owned enterprise in Shanghai to a free-zone company in Dubai.",
+      "deliverables": [
+        "Structure and jurisdiction comparison",
+        "Registration, banking and tax onboarding",
+        "Board, policy and reporting frameworks"
+      ]
+    },
+    {
+      "id": "trade",
+      "title": "Trade & supply chain",
+      "summary": "Routing, customs and logistics planning for goods moving between Asia, Eurasia and the Gulf.",
+      "deliverables": [
+        "Route and Incoterms analysis",
+        "Customs classification and documentation",
+        "Logistics partner selection"
+      ]
+    },
+    {
+      "id": "localization",
+      "title": "Digital presence & localization",
+      "summary": "Websites, search visibility and content adapted for Baidu, Yandex and Arabic-speaking audiences.",
+      "deliverables": [
+        "Multilingual website and hosting strategy, including ICP filing",
+        "Local search and platform setup (Baidu, Yandex, WeChat)",
+        "Transcreation into Chinese, Russian and Arabic"
+      ]
+    }
+  ],
+  "markets": [
+    {
+      "id": "china",
+      "officeId": "shanghai",
+      "name": "Mainland China",
+      "tagline": "The world's largest manufacturing base and a demanding consumer market.",
+      "summary": "We help companies choose the right entry model, complete registration and certification, and find reliable partners — from the first market study to an entity of their own.",
+      "facts": [
+        { "label": "Key hubs", "value": "Shanghai, Shenzhen, Beijing, Chengdu" },
+        { "label": "Conformity", "value": "CCC mark; NMPA registration for medical products" },
+        { "label": "Working languages", "value": "Mandarin, English" }
+      ],
+      "opportunities": [
+        "Advanced manufacturing and automation",
+        "Healthcare and life sciences",
+        "Premium consumer goods and cross-border e-commerce"
+      ],
+      "considerations": [
+        "Personal-information and data-export rules (PIPL)",
+        "ICP filing for websites hosted in the mainland",
+        "Contracts drafted for enforcement in Chinese courts or arbitration"
+      ]
+    },
+    {
+      "id": "russia",
+      "officeId": "moscow",
+      "name": "Russia & EAEU",
+      "tagline": "One conformity regime across five Eurasian markets.",
+      "summary": "We support certification, distribution and industrial partnerships across the Eurasian Economic Union, with compliance checks built into every step.",
+      "facts": [
+        { "label": "Key hubs", "value": "Moscow, St Petersburg, Kazan, Yekaterinburg" },
+        { "label": "Conformity", "value": "EAC mark under EAEU technical regulations" },
+        { "label": "Working languages", "value": "Russian, English" }
+      ],
+      "opportunities": [
+        "Industrial equipment and components",
+        "Food, agriculture and packaging",
+        "Logistics corridors between Asia and Europe"
+      ],
+      "considerations": [
+        "Sanctions and export-control screening for every transaction",
+        "Payment and currency settlement routes",
+        "Russian-language labelling and documentation"
+      ]
+    },
+    {
+      "id": "gcc",
+      "officeId": "dubai",
+      "name": "GCC states",
+      "tagline": "Six economies investing at speed in diversification.",
+      "summary": "From Dubai we cover all six Gulf Cooperation Council states, advising on licensing, regional headquarters, partners and government relations.",
+      "facts": [
+        { "label": "Member states", "value": "UAE, Bahrain, Saudi Arabia, Oman, Qatar, Kuwait" },
+        { "label": "Conformity", "value": "G-Mark, SASO/SABER, ECAS" },
+        { "label": "Working languages", "value": "Arabic, English" }
+      ],
+      "opportunities": [
+        "Energy transition and industrial projects",
+        "Healthcare, education and giga-project supply chains",
+        "Regional headquarters and trading hubs"
+      ],
+      "considerations": [
+        "Agency and licensing rules that differ by state",
+        "Saudi regional-headquarters requirements for government contracts",
+        "Arabic-language contracts and documentation"
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "id": "industrial",
+      "title": "Industrial & machinery",
+      "body": "Equipment makers, automation suppliers and component manufacturers building local sales and service networks."
+    },
+    {
+      "id": "energy",
+      "title": "Energy & resources",
+      "body": "Oil and gas services, renewables and mining suppliers navigating licensing and local-content rules."
+    },
+    {
+      "id": "healthcare",
+      "title": "Healthcare & life sciences",
+      "body": "Medical device, pharmaceutical and diagnostics companies managing product registration and distribution."
+    },
+    {
+      "id": "consumer",
+      "title": "Consumer & retail",
+      "body": "Premium brands and retailers choosing between distributors, marketplaces and their own stores."
+    },
+    {
+      "id": "technology",
+      "title": "Technology & telecoms",
+      "body": "Software, hardware and telecoms firms meeting data, certification and partner requirements."
+    },
+    {
+      "id": "logistics",
+      "title": "Logistics & infrastructure",
+      "body": "Freight, port and construction firms positioning themselves on new trade corridors."
+    }
+  ],
+  "insights": [
+    {
+      "slug": "china-entity-setup-questions",
+      "date": "2026-09-22",
+      "category": "Market entry",
+      "author": "Chen Ruoxi",
+      "readingMinutes": 6,
+      "title": "Setting up in China: four questions to answer before you register a company",
+      "excerpt": "A local entity unlocks contracts, hiring and invoicing in China — but only if the structure matches your business model. These are the questions we ask every client first.",
+      "body": [
         {
-          "title": "Market entry strategy",
-          "description": "Partner sourcing, regulatory scoping, and go-to-market plans tailored to each region."
+          "heading": "Do you need an entity at all?",
+          "paragraphs": [
+            "Many companies test the market through a distributor or a cross-border e-commerce channel before committing capital. If your first year is about validating demand, a well-chosen partner can be faster and cheaper than a company of your own. An entity becomes essential once you need to sign contracts locally, employ staff directly or issue official tax invoices (fapiao) to customers."
+          ]
         },
         {
-          "title": "Trade facilitation",
-          "description": "Documentation, logistics coordination, and compliance support for cross-border shipments."
+          "heading": "Which structure, and which city?",
+          "paragraphs": [
+            "Most foreign investors choose a wholly foreign-owned limited liability company, while joint ventures remain common in regulated sectors or when a partner brings licences and relationships. Location matters as much as structure: Shanghai, Shenzhen and Chengdu offer different incentives, talent pools and proximity to customers, and local authorities differ in how quickly they process applications."
+          ]
         },
         {
-          "title": "Local partnership advisory",
-          "description": "Due diligence, negotiation support, and cultural briefings for lasting commercial relationships."
+          "heading": "How much capital, and when?",
+          "paragraphs": [
+            "Since China's revised Company Law took effect in July 2024, subscribed capital in a limited liability company generally has to be paid in within five years. Set registered capital to reflect a realistic budget for the first years of operation rather than an impressive headline figure."
+          ]
+        },
+        {
+          "heading": "What else belongs in the plan?",
+          "paragraphs": [
+            "Allow time for opening a bank account, tax registration and social insurance enrolment, and plan early for data rules: if you will transfer personal information out of China, the Personal Information Protection Law may require additional steps. Finally, draft partner and employment contracts on the assumption that disputes will be heard by Chinese courts or arbitration bodies."
+          ]
         }
       ]
     },
-    "cta": {
-      "title": "Ready to expand with confidence?",
-      "body": "Share your target markets and timeline. We will respond with a concise next-step plan.",
-      "button": "Contact us"
-    }
-  },
-  "contact": {
-    "title": "Contact us",
-    "subtitle": "Tell us about your expansion goals. This demo form runs entirely in the browser — no data is sent to a server.",
-    "fields": {
-      "name": "Full name",
-      "namePlaceholder": "Your name",
-      "email": "Work email",
-      "emailPlaceholder": "you@company.com",
-      "company": "Company",
-      "companyPlaceholder": "Company name",
-      "message": "How can we help?",
-      "messagePlaceholder": "Markets, timeline, and what you need…",
-      "submit": "Send message",
-      "sending": "Sending…"
+    {
+      "slug": "eac-certification-roadmap",
+      "date": "2026-08-27",
+      "category": "Regulation",
+      "author": "Elena Sokolova",
+      "readingMinutes": 5,
+      "title": "EAC certification: a practical roadmap for exporters to the Eurasian Economic Union",
+      "excerpt": "One conformity mark opens five markets, but the process rewards preparation. Here is how to plan certification without delaying your launch.",
+      "body": [
+        {
+          "heading": "One mark, five markets",
+          "paragraphs": [
+            "Products covered by the Eurasian Economic Union's technical regulations must carry the EAC mark before they can be sold in Russia, Kazakhstan, Belarus, Armenia or Kyrgyzstan. The good news is that a single certificate or declaration of conformity is valid in all five countries."
+          ]
+        },
+        {
+          "heading": "Start with classification",
+          "paragraphs": [
+            "The first step is to identify which technical regulations apply to your product: machinery safety, low-voltage equipment, electromagnetic compatibility and food-contact materials are common combinations. The applicable regulations determine whether you need a certificate issued by an accredited body or a declaration of conformity registered by the applicant."
+          ]
+        },
+        {
+          "heading": "Appoint a local applicant",
+          "paragraphs": [
+            "Certificates and declarations are issued to an applicant registered in an EAEU member state — typically your subsidiary, your importer or an authorised representative. Choose this partner carefully: they carry legal responsibility for the documents and often keep control of them if the relationship ends."
+          ]
+        },
+        {
+          "heading": "Plan testing and labelling early",
+          "paragraphs": [
+            "Testing must be carried out by laboratories accredited within the Union, and technical documentation and labelling must be available in Russian. For most industrial products, a well-prepared file can move from application to approval in a few weeks; incomplete technical documentation is the most common cause of delay. Above all, first confirm that the product and your counterparties are not restricted by the sanctions or export-control rules that apply to your company."
+          ]
+        }
+      ]
     },
-    "success": {
-      "title": "Thank you",
-      "body": "Your message was recorded locally for this demo. In production, this would reach our advisory team."
+    {
+      "slug": "gulf-regional-headquarters",
+      "date": "2026-07-15",
+      "category": "Strategy",
+      "author": "Omar Al-Hashimi",
+      "readingMinutes": 7,
+      "title": "Riyadh or Dubai? Choosing a regional headquarters in the Gulf",
+      "excerpt": "The decision is no longer only about lifestyle and connectivity. Government contracts, tax and talent now point in different directions.",
+      "body": [
+        {
+          "heading": "Why the question has changed",
+          "paragraphs": [
+            "For two decades, Dubai was the default base for regional operations. Saudi Arabia's regional headquarters programme has changed the calculation: companies that want to contract with Saudi government entities are now generally expected to have a regional headquarters in the Kingdom."
+          ]
+        },
+        {
+          "heading": "What Dubai still offers",
+          "paragraphs": [
+            "The UAE combines world-class connectivity, established free zones and a deep pool of international talent. Since federal corporate tax was introduced in 2023, qualifying free-zone companies can still benefit from preferential rates, but the rules reward genuine substance rather than a registered address."
+          ]
+        },
+        {
+          "heading": "What Riyadh offers",
+          "paragraphs": [
+            "Saudi Arabia is the largest economy in the GCC, and its investment programmes span energy, infrastructure, tourism and manufacturing. Licensed regional headquarters can access tax incentives and support with visas and hiring, in exchange for meeting substance requirements such as a minimum number of senior staff."
+          ]
+        },
+        {
+          "heading": "Making the choice",
+          "paragraphs": [
+            "Start from your customers rather than the incentives. If Saudi government or giga-project contracts are central to your plan, a Riyadh headquarters is probably unavoidable, and many groups keep a commercial or logistics hub in Dubai as well. We usually recommend modelling both options over five years, including people, tax and the cost of running two locations."
+          ]
+        }
+      ]
     },
-    "errors": {
-      "required": "Please fill in all fields.",
-      "email": "Please enter a valid email address."
+    {
+      "slug": "localizing-for-baidu-yandex",
+      "date": "2026-06-03",
+      "category": "Digital",
+      "author": "Chen Ruoxi",
+      "readingMinutes": 4,
+      "title": "One website, three search ecosystems: localizing for Baidu, Yandex and Arabic search",
+      "excerpt": "Translation is only the start. Hosting, page speed and local platforms decide whether customers in China, Russia and the Gulf ever find your site.",
+      "body": [
+        {
+          "heading": "China: speed and hosting come first",
+          "paragraphs": [
+            "Many Google services, including Google Fonts, Maps and reCAPTCHA, are blocked or unreliable in Mainland China, and a single blocked script can leave a page loading for seconds. Self-host fonts and scripts, keep pages light and, if you host inside the mainland, complete the ICP filing required for locally hosted websites."
+          ]
+        },
+        {
+          "heading": "Russia: Yandex rewards local relevance",
+          "paragraphs": [
+            "Yandex remains the leading search engine in Russia. Register the site in Yandex Webmaster, set the target region and write Russian content for Russian readers rather than translating word for word. A clear structure, fast pages and accurate hreflang tags help both Yandex and Google."
+          ]
+        },
+        {
+          "heading": "The Gulf: Arabic first, right to left",
+          "paragraphs": [
+            "Google dominates search in the GCC, but audiences increasingly expect native Arabic content. That means a true right-to-left layout — mirrored navigation, icons and forms — and copy written by Arabic speakers, with English kept for international partners."
+          ]
+        },
+        {
+          "heading": "Build once, publish everywhere",
+          "paragraphs": [
+            "A single codebase with a structured content model keeps every language in sync. Static pages served from a CDN with nodes close to each audience deliver the speed that every search engine rewards."
+          ]
+        }
+      ]
     }
-  },
-  "aboutRtl": {
-    "title": "Arabic RTL without duplicate layouts",
-    "intro": "This page explains the mirroring approach used across the demo. One component tree serves all locales; direction is driven by the html dir attribute.",
-    "sections": [
-      {
-        "title": "dir=\"rtl\" on <html>",
-        "body": "When the locale is Arabic, the root layout sets lang=\"ar\" and dir=\"rtl\". The browser flips the inline axis so start becomes the right edge."
-      },
-      {
-        "title": "CSS logical properties",
-        "body": "Spacing and alignment use logical utilities such as ms-/me-, ps-/pe-, text-start, and start-/end- instead of left/right. Margins and padding therefore mirror automatically."
-      },
-      {
-        "title": "Shared components",
-        "body": "Header, cards, and forms are not forked for Arabic. The language switcher preserves the current path so visitors stay on the same page while changing locale."
-      }
-    ],
-    "note": "This keeps maintenance low and makes a future headless CMS swap straightforward — content changes, layout logic stays the same."
-  },
-  "footer": {
-    "rights": "Demo site for multilingual Next.js architecture. Not a live client project.",
-    "builtWith": "Built with Next.js App Router, TypeScript, and Tailwind CSS."
-  }
+  ]
 }

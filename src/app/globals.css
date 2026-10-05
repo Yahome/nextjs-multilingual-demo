@@ -1,73 +1,231 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #0f172a;
+/*
+  IBM Plex Sans Arabic (SIL OFL 1.1, see /public/fonts), Arabic subset only:
+  Latin characters on Arabic pages fall through to Inter. Regular and bold are
+  enough; 500 renders as 400 and 600 as 700.
+*/
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  src: url("/fonts/ibm-plex-sans-arabic-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  src: url("/fonts/ibm-plex-sans-arabic-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+/* `on-dark:` styles an element inside (or on) a dark surface. */
+@custom-variant on-dark (&:where(.surface-dark, .surface-dark *));
+
+@theme {
+  --color-ink-950: #07111f;
+  --color-ink-900: #0b1b2e;
+  --color-ink-800: #132a45;
+  --color-ink-700: #1e3a5c;
+  --color-ink-300: #9fb0c4;
+  --color-ink-200: #c5d0dd;
+  --color-ink-100: #e3e9f0;
+  --color-brass-200: #e6d3a8;
+  --color-brass-300: #d6b36f;
+  --color-brass-400: #c9a35a;
+  --color-brass-700: #7c5e26;
+  --color-paper: #f7f4ee;
+  --color-line: #e4ddcf;
+  --color-body: #3d4b5c;
+  --color-muted: #526174;
+  --color-danger: #b42318;
+
+  /* Fallbacks keep the stack valid where the next/font variables are absent. */
+  --font-sans: var(--font-inter, system-ui), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-display: var(--font-source-serif, Georgia), Georgia, "Times New Roman", serif;
+  /* The Latin wordmark keeps the serif in every locale. */
+  --font-brand: var(--font-source-serif, Georgia), Georgia, serif;
+
+  --leading-display: 1.08;
+  --tracking-eyebrow: 0.16em;
+
+  --animate-rise: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-drop-in: drop-in 0.18s ease-out both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      translate: 0 1.25rem;
+    }
+  }
+  @keyframes drop-in {
+    from {
+      opacity: 0;
+      translate: 0 -0.375rem;
+    }
+  }
 }
 
 /*
-  China-friendly system stacks — no Google Fonts network dependency.
-  Arabic and CJK glyphs come from the OS (PingFang / Microsoft YaHei /
-  Noto Sans Arabic / Tahoma, etc.).
+  Per-language typography. Theme variables are redefined instead of forking
+  components: CJK and Arabic get their own families, no negative tracking
+  (letter-spacing breaks Arabic joining) and roomier line heights.
 */
-html {
-  font-family:
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    "Liberation Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji";
+@layer base {
+  html {
+    --heading-weight: 500;
+    --heading-tracking: -0.02em;
+    --focus-ring: var(--color-ink-700);
+    scroll-padding-block-start: 6rem;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html[lang="ru"] {
+    --heading-tracking: -0.01em;
+  }
+
+  html[lang="zh-CN"] {
+    --font-sans: var(--font-inter, system-ui), "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+      "Noto Sans CJK SC", "Source Han Sans SC", system-ui, sans-serif;
+    --font-display: var(--font-sans);
+    --heading-weight: 600;
+    --heading-tracking: 0.02em;
+    --leading-display: 1.3;
+    --leading-tight: 1.4;
+    --leading-relaxed: 1.85;
+    --tracking-eyebrow: 0.12em;
+  }
+
+  html[lang="ar"] {
+    --font-sans: "IBM Plex Sans Arabic", var(--font-inter, system-ui), system-ui, "Segoe UI", Tahoma, sans-serif;
+    --font-display: var(--font-sans);
+    --heading-weight: 700;
+    --heading-tracking: 0;
+    --leading-display: 1.4;
+    --leading-tight: 1.5;
+    --leading-relaxed: 1.9;
+    --tracking-eyebrow: 0;
+    --tracking-tight: 0;
+  }
+
+  body {
+    background-color: var(--color-white);
+    color: var(--color-body);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background-color: var(--color-brass-200);
+    color: var(--color-ink-950);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }
 
-html[lang="zh-CN"],
-html[lang="zh-cn"] {
-  font-family:
-    system-ui,
-    -apple-system,
-    "PingFang SC",
-    "Hiragino Sans GB",
-    "Microsoft YaHei",
-    "Noto Sans SC",
-    "Source Han Sans SC",
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
+@utility surface-dark {
+  --focus-ring: var(--color-brass-300);
+  color-scheme: dark;
 }
 
-html[lang="ar"] {
-  font-family:
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    Tahoma,
-    "Noto Sans Arabic",
-    "Arabic Typesetting",
-    "Traditional Arabic",
-    Arial,
-    sans-serif;
+@utility type-display {
+  font-family: var(--font-display);
+  font-weight: var(--heading-weight);
+  letter-spacing: var(--heading-tracking);
+  text-wrap: balance;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  min-height: 100vh;
+@layer components {
+  /* Thin brass rule before section eyebrows; sits on the inline-start side in every direction. */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-eyebrow);
+  }
+  .eyebrow::before {
+    content: "";
+    inline-size: 1.5rem;
+    block-size: 1px;
+    background-color: currentColor;
+  }
+  html[lang="ar"] .eyebrow {
+    font-size: 0.875rem;
+  }
 }
 
-/* Improve text rendering for mixed scripts */
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+/* Motion: entrance and scroll-reveal only when the user has not asked for less motion. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      /* Fully visible once 160px of the element has entered, whatever its height. */
+      animation-range: entry 0% entry 160px;
+    }
+  }
+
+  .route-flow {
+    animation: route-flow 2.4s linear infinite;
+  }
+
+  .hub-pulse {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: hub-pulse 3s ease-out infinite;
+  }
+}
+
+/*
+  Movement only, no fade: content parked at the viewport edge stays fully
+  opaque, so contrast never drops. Uses `transform` so it never fights hover
+  effects that animate the `translate` property.
+*/
+@keyframes reveal {
+  from {
+    transform: translateY(2.5rem);
+  }
+}
+
+@keyframes route-flow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+@keyframes hub-pulse {
+  0% {
+    opacity: 0.7;
+    scale: 0.6;
+  }
+  80%,
+  100% {
+    opacity: 0;
+    scale: 1.8;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
