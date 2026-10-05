@@ -8,7 +8,8 @@
     "start": "npx serve out",
     "lint": "eslint",
     "typecheck": "next typegen && tsc --noEmit",
-    "check:content": "node scripts/check-content.mjs"
+    "check:content": "node scripts/check-content.mjs",
+    "build:pages": "NEXT_PUBLIC_BASE_PATH=/nextjs-multilingual-demo NEXT_PUBLIC_SITE_URL=https://yahome.github.io/nextjs-multilingual-demo npm run build"
   },
   "dependencies": {
     "next": "16.3.8",

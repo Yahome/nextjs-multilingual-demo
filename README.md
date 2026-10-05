@@ -187,6 +187,18 @@ export const content: ContentSource = jsonSource;
   - 剩下的主要差距是 LCP（模拟慢速 4G 下约 2.8–3.7 秒），主要来自 Next.js/React 框架约 130KB（gzip）的 JS。
   - **正式上线后，请部署到 CDN 后用 PageSpeed Insights 复测**，那里的测试硬件更稳定。
 
+## 部署到 GitHub Pages
+
+在线预览：https://yahome.github.io/nextjs-multilingual-demo/
+
+- 这是项目站点（子路径 `/nextjs-multilingual-demo`），构建时设置 `NEXT_PUBLIC_BASE_PATH=/nextjs-multilingual-demo`，`next.config.ts` 会据此开启 `basePath` / `assetPrefix`；不设置时本地开发仍在 `/`。
+- `NEXT_PUBLIC_SITE_URL=https://yahome.github.io/nextjs-multilingual-demo`（canonical、hreflang、sitemap、Open Graph 用）。
+- 本地等价构建：`npm run build:pages`，产物在 `out/`。
+- `next/link`、`_next` 资源和 icon 文件约定会自动带上 basePath；手写的 URL（根路径跳转、404 页链接、`/public/fonts` 字体与预加载）统一走 `src/lib/base-path.ts` 的 `withBasePath()`。阿拉伯字体的 `@font-face` 因此放在 `src/components/ui/ArabicFontFace.tsx`，不在 `globals.css` 里（CSS 里的 `url("/fonts/…")` 不会被加上 basePath）。
+- 当前部署方式：本地 `npm run build:pages` 后把 `out/` 推到 `gh-pages` 分支，Pages 从该分支发布（推送时所用的 token 没有 `workflow` 权限，无法提交 workflow 文件）。
+- 想改成 GitHub Actions 自动部署：把 `docs/github-pages-deploy.yml` 复制到 `.github/workflows/deploy.yml`（需要有 `workflow` 权限的账号提交），再在仓库 Settings → Pages 把 Source 改成 “GitHub Actions”。
+- `public/.nojekyll` 让 GitHub Pages 不经 Jekyll 处理，`_next/` 目录才能正常访问。
+
 ## 上线前建议
 
 - 联系表单目前只在浏览器内模拟提交。可以接入后端 API，或使用国内可访问的表单服务。注意遵守 PIPL、152-ФЗ 等个人信息保护法规。

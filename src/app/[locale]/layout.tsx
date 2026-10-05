@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { preload } from "react-dom";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { ArabicFontFace } from "@/components/ui/ArabicFontFace";
 import { content } from "@/lib/content";
 import { fontVariables, localeFontPreloads } from "@/lib/fonts";
 import { getSiteUrl, localeMeta, locales } from "@/lib/i18n";
@@ -41,6 +42,7 @@ export default async function LocaleLayout({ children, params }: LocaleParams & 
   return (
     <html lang={lang} dir={dir} className={fontVariables} data-scroll-behavior="smooth">
       <body className="flex min-h-dvh flex-col">
+        <ArabicFontFace />
         <a
           href="#main"
           className="sr-only z-50 rounded-md bg-ink-900 text-sm font-semibold text-white focus:not-sr-only focus:fixed focus:top-4 focus:inset-s-4 focus:px-4 focus:py-3"
